@@ -31,7 +31,7 @@ class WeatherTableViewController: UITableViewController,CLLocationManagerDelegat
         locationManagerClass.startTrackingLocation();
         locationManagerClass.locationWithDetails();
         forecastDay = locationManagerClass.forecastDay
-        self.navigationController?.navigationBar.topItem?.title = "CityStatehere";
+        self.navigationController?.navigationBar.topItem?.title = "CityStatehere...";
     }
     
     override func didReceiveMemoryWarning() {
